@@ -1,0 +1,13 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 24px;
+    font-weight: 400;
+}
