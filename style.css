@@ -15,8 +15,6 @@ li {
 
 body {
     font-family: 'Syne', sans-serif;
-    font-family: 'Crafty Girls', cursive;
-    font-family: 'Roboto Mono', monospace;
     background-color: #1D1D1D;
     color: #fff;
     font-weight: 700;
@@ -28,12 +26,16 @@ body {
     margin: 0 auto;
 }
 
+.header {
+    margin-bottom: 80px;
+}
+
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 90px;
-    padding: 48px 0;
+    padding: 48px 90px;
 }
 
 .logo {
@@ -47,5 +49,68 @@ body {
 .list {
     display: flex;
     justify-content: space-between;
+}
+
+.hero-container {
+    display: flex;
+    gap: 20px;
+}
+
+.wrapper {
+    max-width: 780px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.box {
+    border-radius: 40px;
+    padding: 40px;
+    background-color: #252525;
+}
+
+.offer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offer::before {
+    content: 'Nice to meet you :)';
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    font-family: Crafty Girls;
+    color: #F5544F;
+    font-size: 20px;
+    line-height: 132%;
+    transform: rotate(-16.595deg);
+}
+
+.chip {
+    width: 236px;
+    height: 82px;
+    padding: 24px 40px;
+    border-radius: 100px;
+    background: #1CB476;
+}
+
+.text-main {
+    font-size: 28px;
+}
+
+.heading-1 {
+    font-size: 80px;
+}
+
+.heading-3 {
+    font-size: 40px;
+}
+
+.photo-container {
+    border-radius: 40px;
+    overflow: hidden;
+    line-height: 0;
 }
 
