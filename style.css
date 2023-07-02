@@ -316,3 +316,13 @@ body {
     gap: 12px;
 }
 
+.education-container {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 200px;
+}
+
+.subtitle {
+    margin-bottom: 20px;
+}
+
