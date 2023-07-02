@@ -116,13 +116,15 @@ body {
     line-height: 0;
 }
 
-.about {
+.about,
+.projects {
     background-color: #4F5BF5;
     border-radius: 40px;
     margin-bottom: 200px;
 }
 
-.about-wrapper {
+.about-wrapper,
+.projects-wrapper {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -144,7 +146,8 @@ body {
     transform: rotate(-16.595deg);
 }
 
-.about-text {
+.about-text,
+.projects-text {
     max-width: 882px;
 }
 
@@ -281,5 +284,35 @@ body {
 
 .text-green {
     color: #B6BC73;
+}
+
+.projects-wrapper::before {
+    content: 'Don’t let the fear of losing be greater than the excitement of winning.';
+    position: absolute;
+    width: 300px;
+    top: 200px;
+    right: 0px;
+    font-family: Crafty Girls;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 132%;
+    transform: rotate(-16.595deg);
+}
+
+.list-projects {
+    display: flex;
+    gap: 8px;
+    margin-top: 40px;
+}
+
+.btn {
+    font-size: 32px;
+    border-radius: 100px;
+    border: 2px solid #FFF;
+    display: flex;
+    padding: 24px 32px;
+    align-items: center;
+    gap: 12px;
 }
 
