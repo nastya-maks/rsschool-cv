@@ -6,12 +6,164 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crafty+Girls&family=Roboto+Mono&family=Syne:wght@500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>CV#2</title>
 </head>
 <body>
-    <h1>Nastya Maksimenko</h1>
-    <p>Frontend Developer</p>
+    <header class="header">
+        <div class="container header-container">
+            <div class="logo">NM.</div>
+            <nav class="nav">
+                <ul class="list">
+                    <li class="list-item"><a class="item-link" href="#about">About me</a></li>
+                    <li class="list-item"><a class="item-link" href="#skills">Skills</a></li>
+                    <li class="list-item"><a class="item-link" href="#code">Code</a></li>
+                    <li class="list-item"><a class="item-link" href="#projects">Projects</a></li>
+                    <li class="list-item"><a class="item-link" href="#education">Education</a></li>
+                    <li class="list-item"><a class="item-link" href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="wrapper">
+                    <div class="offer box">
+                        <div class="chip"><p class="text-main">Hi there 👋</p></div>
+                        <h1 class="heading-1">I’m Nastya Maksimenka</h1>
+                    </div>
+                    <div class="offer-description box">
+                        <h3 class="heading-3">... and I’m UI/UX designer, beginner Frontend Developer</h3>
+                    </div>
+                </div>
+                <div class="photo-container"><img class="photo" src="./resources/photo.jpg" alt="my photo"></div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="title-area">
+                        <h2 class="heading-2">I’m a UI/UX designer with 4 years experience, based in Minsk, Belarus. I want to improve my skills and learn front-end development. I find this area interesting and exciting.</h2>
+                    </div>
+                    <div class="gif-box">
+                        <img class="gif" src="https://media.giphy.com/media/xHMIDAy1qkzNS/giphy.gif" alt="gif">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container skills-container">
+                <div class="skills-offer">
+                    <div class="chips">
+                        <ul class="list-skills">
+                            <li class="skills-item skill-html">HTML</li>
+                            <li class="skills-item skill-css">CSS</li>
+                            <li class="skills-item skill-js">JavaScript</li>
+                            <li class="skills-item skill-sass">SASS</li>
+                            <li class="skills-item skill-figma">Figma</li>
+                            <li class="skills-item skill-github">GitHub</li>
+                            <li class="skills-item skill-git">Git</li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2 class="heading-2">I have the basic skills to make a simple website or application and I believe that there will be more of them soon.</h2>
+                    </div>
+                </div>
+                <div class="skills-img"><img class="photo" src="./resources/skills-banner.svg" alt="skills banner"></div>
+            </div>
+        </section>
+        <section class="code" id="code">
+            <div class="container code-container">
+                <div class="box">
+                    <div class="title-code">
+                        <img src="./resources/8-kyu.svg" alt="8-kyu">
+                        <h4 class="heading-4">Contamination #1 -String-</h4>
+                    </div>
+                    <h4 class="heading-4">JavaScript:</h4>
+                    <div class="code-area">
+                        <pre><code><span class="text-violet">function</span> <span class="text-orange">contamination</span>(<span class="text-orange">text</span>, <span class="text-orange">char</span>){
+  <span class="text-violet">let</span> str = <span class="text-green">''</span>;
+  <span class="text-violet">for</span> (<span class="text-violet">let</span> <span class="text-orange">i</span> = <span class="text-orange">0</span>; <span class="text-blue">i</span> &lt; <span class="text-blue">text.length</span>; <span class="text-blue">i</span>++){
+    <span class="text-blue">str</span> = <span class="text-blue">str</span> + <span class="text-blue">char</span>;
+  }
+  <span class="text-violet">return</span> str;
+}</code></pre>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="title-code">
+                        <img src="./resources/8-kyu.svg" alt="8-kyu">
+                        <h4 class="heading-4">Contamination #1 -String-</h4>
+                    </div>
+                    <h4 class="heading-4">JavaScript:</h4>
+                    <div class="code-area">
+                        <pre><code><span class="text-violet">function</span> <span class="text-orange">simpleMultiplication</span>(<span class="text-orange">number</span>){
+  <span class="text-violet">if</span> (<span class="text-blue">number</span> % <span class="text-orange">2</span> === 0) {
+    <span class="text-violet">return</span> <span class="text-blue">number</span> * <span class="text-orange">8</span>
+  } <span class="text-violet">else</span> {
+    <span class="text-violet">return</span> <span class="text-blue">number</span> * <span class="text-orange">9</span>
+  }
+}</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="projects-wrapper">
+                    <div class="title-area">
+                        <h2 class="heading-2">My first projects, so far there are not many of them, but I hope that in the future the portfolio will become larger.</h2>
+                        <div class="list-btns">
+                            <a class="btn" href="https://rolling-scopes-school.github.io/nastya-maks-JSFE2023Q1/shelter/pages/index.html" target="_blank">Shelter <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://nastya-maks.github.io/cssBayan/cssBayan/index.html" target="_blank">cssBayan <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://nastya-maks.github.io/rsschool-cv/" target="_blank">rsschool-cv <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                        </div>
+                    </div>
+                    <div class="gif-box">
+                        <img class="gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjJkMXBodXVxZzF1emJ2Ymc5d29hejQ2bTJ6b3M5b2FvMXVzNTV3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/toXKzaJP3WIgM/giphy.gif" alt="gif">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="container education-container">
+                <div class="box box-education">
+                    <h4 class="heading-4 subtitle">Education</h4>
+                    <h2 class="heading-2">2023: Rolling Scopes School</h2>
+                </div>
+                <div class="box box-language">
+                    <h4 class="heading-4 subtitle">Language</h4>
+                    <h2 class="heading-2">English (A2)</h2>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <div class="contacts-wrapper">
+                    <div class="title-area">
+                        <h2 class="heading-2">Have an idea?</h2>
+                        <p class="big-title">Tell me about it</p>
+                        <div class="list-btns">
+                            <a class="btn" href="https://t.me/nastyamaks" target="_blank">Telegram <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://discordapp.com/users/1035639887770173470/" target="_blank">Discord <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://github.com/nastya-maks" target="_blank">GitHub <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                        </div>
+                    </div>
+                    <div class="gif-box">
+                        <img class="gif" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOTh6ajYwMGtuMnllcGxqbWc4ZWQyMzl5bnU3bmJlMmM2NXJsOXJpaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kyz9sLuhW4Y1d2QC6q/giphy.gif" alt="gif">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a href="https://rs.school/js/" target="_blank"><img src="./resources/rs_school_js.svg" alt="rs_school_js"></a>
+            <p class="heading-4">2023</p>
+            <a class="link" href="https://github.com/nastya-maks" target="_blank">GitHub</a>
+        </div>
+    </footer>
 </body>
 </html>
