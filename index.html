@@ -16,12 +16,12 @@
             <div class="logo">NM.</div>
             <nav class="nav">
                 <ul class="list">
-                    <li class="list-item"><a class="item-link" href="">About me</a></li>
-                    <li class="list-item"><a class="item-link" href="">Skills</a></li>
-                    <li class="list-item"><a class="item-link" href="">Code</a></li>
-                    <li class="list-item"><a class="item-link" href="">Projects</a></li>
-                    <li class="list-item"><a class="item-link" href="">Education</a></li>
-                    <li class="list-item"><a class="item-link" href="">Contacts</a></li>
+                    <li class="list-item"><a class="item-link" href="#about">About me</a></li>
+                    <li class="list-item"><a class="item-link" href="#skills">Skills</a></li>
+                    <li class="list-item"><a class="item-link" href="#code">Code</a></li>
+                    <li class="list-item"><a class="item-link" href="#projects">Projects</a></li>
+                    <li class="list-item"><a class="item-link" href="#education">Education</a></li>
+                    <li class="list-item"><a class="item-link" href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,7 +41,7 @@
                 <div class="photo-container"><img class="photo" src="./resources/photo.jpg" alt="my photo"></div>
             </div>
         </section>
-        <section class="about">
+        <section class="about" id="about">
             <div class="container">
                 <div class="about-wrapper">
                     <div class="title-area">
@@ -53,7 +53,7 @@
                 </div>
             </div>
         </section>
-        <section class="skills">
+        <section class="skills" id="skills">
             <div class="container skills-container">
                 <div class="skills-offer">
                     <div class="chips">
@@ -74,7 +74,7 @@
                 <div class="skills-img"><img class="photo" src="./resources/skills-banner.svg" alt="skills banner"></div>
             </div>
         </section>
-        <section class="code">
+        <section class="code" id="code">
             <div class="container code-container">
                 <div class="box">
                     <div class="title-code">
@@ -83,17 +83,13 @@
                     </div>
                     <h4 class="heading-4">JavaScript:</h4>
                     <div class="code-area">
-                        <pre>
-                            <code>
-<span class="text-violet">function</span> <span class="text-orange">contamination</span>(<span class="text-orange">text</span>, <span class="text-orange">char</span>){
+                        <pre><code><span class="text-violet">function</span> <span class="text-orange">contamination</span>(<span class="text-orange">text</span>, <span class="text-orange">char</span>){
   <span class="text-violet">let</span> str = <span class="text-green">''</span>;
   <span class="text-violet">for</span> (<span class="text-violet">let</span> <span class="text-orange">i</span> = <span class="text-orange">0</span>; <span class="text-blue">i</span> &lt; <span class="text-blue">text.length</span>; <span class="text-blue">i</span>++){
     <span class="text-blue">str</span> = <span class="text-blue">str</span> + <span class="text-blue">char</span>;
   }
   <span class="text-violet">return</span> str;
-}
-                            </code>
-                        </pre>
+}</code></pre>
                     </div>
                 </div>
                 <div class="box">
@@ -103,30 +99,26 @@
                     </div>
                     <h4 class="heading-4">JavaScript:</h4>
                     <div class="code-area">
-                        <pre>
-                            <code>
-<span class="text-violet">function</span> <span class="text-orange">simpleMultiplication</span>(<span class="text-orange">number</span>){
+                        <pre><code><span class="text-violet">function</span> <span class="text-orange">simpleMultiplication</span>(<span class="text-orange">number</span>){
   <span class="text-violet">if</span> (<span class="text-blue">number</span> % <span class="text-orange">2</span> === 0) {
     <span class="text-violet">return</span> <span class="text-blue">number</span> * <span class="text-orange">8</span>
   } <span class="text-violet">else</span> {
     <span class="text-violet">return</span> <span class="text-blue">number</span> * <span class="text-orange">9</span>
   }
-}
-                            </code>
-                        </pre>
+}</code></pre>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="projects">
+        <section class="projects" id="projects">
             <div class="container">
                 <div class="projects-wrapper">
                     <div class="title-area">
                         <h2 class="heading-2">My first projects, so far there are not many of them, but I hope that in the future the portfolio will become larger.</h2>
                         <div class="list-btns">
-                            <a class="btn" href="">Shelter <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
-                            <a class="btn" href="">cssBayan <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
-                            <a class="btn" href="">rsschool-cv <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://rolling-scopes-school.github.io/nastya-maks-JSFE2023Q1/shelter/pages/index.html" target="_blank">Shelter <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://nastya-maks.github.io/cssBayan/cssBayan/index.html" target="_blank">cssBayan <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://nastya-maks.github.io/rsschool-cv/" target="_blank">rsschool-cv <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
                         </div>
                     </div>
                     <div class="gif-box">
@@ -135,28 +127,28 @@
                 </div>
             </div>
         </section>
-        <section class="education">
+        <section class="education" id="education">
             <div class="container education-container">
-                <div class="box">
+                <div class="box box-education">
                     <h4 class="heading-4 subtitle">Education</h4>
                     <h2 class="heading-2">2023: Rolling Scopes School</h2>
                 </div>
-                <div class="box">
+                <div class="box box-language">
                     <h4 class="heading-4 subtitle">Language</h4>
                     <h2 class="heading-2">English (A2)</h2>
                 </div>
             </div>
         </section>
-        <section class="contacts">
+        <section class="contacts" id="contacts">
             <div class="container">
                 <div class="contacts-wrapper">
                     <div class="title-area">
                         <h2 class="heading-2">Have an idea?</h2>
                         <p class="big-title">Tell me about it</p>
                         <div class="list-btns">
-                            <a class="btn" href="">Telegram <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
-                            <a class="btn" href="">Discord <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
-                            <a class="btn" href="">GitHub <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://t.me/nastyamaks" target="_blank">Telegram <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://discordapp.com/users/1035639887770173470/" target="_blank">Discord <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
+                            <a class="btn" href="https://github.com/nastya-maks" target="_blank">GitHub <img src="./resources/arrow-up-right.svg" alt="arrow up"></a>
                         </div>
                     </div>
                     <div class="gif-box">
