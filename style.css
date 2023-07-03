@@ -255,7 +255,8 @@ body {
     margin-bottom: 32px;
 }
 
-.heading-4 {
+.heading-4,
+.link {
     font-size: 18px;
     line-height: 156%;
 }
@@ -351,5 +352,17 @@ body {
 
 .contacts {
     margin-bottom: 200px;
+}
+
+.footer {
+    background-color: #252525;
+    border-radius: 40px 40px 0px 0px;
+    padding: 42px 0;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
