@@ -124,7 +124,8 @@ body {
 }
 
 .about-wrapper,
-.projects-wrapper {
+.projects-wrapper,
+.contacts-wrapper {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -146,8 +147,7 @@ body {
     transform: rotate(-16.595deg);
 }
 
-.about-text,
-.projects-text {
+.title-area {
     max-width: 882px;
 }
 
@@ -300,7 +300,7 @@ body {
     transform: rotate(-16.595deg);
 }
 
-.list-projects {
+.list-btns {
     display: flex;
     gap: 8px;
     margin-top: 40px;
@@ -324,5 +324,32 @@ body {
 
 .subtitle {
     margin-bottom: 20px;
+}
+
+.big-title {
+    font-size: 100px;
+    line-height: 132%;
+}
+
+.contacts-wrapper {
+    padding: 0;
+}
+
+.contacts-wrapper::before {
+    content: 'You know what to do';
+    position: absolute;
+    width: 300px;
+    top: 90px;
+    right: 0px;
+    font-family: Crafty Girls;
+    color: #F5544F;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 132%;
+    transform: rotate(-16.595deg);
+}
+
+.contacts {
+    margin-bottom: 200px;
 }
 
